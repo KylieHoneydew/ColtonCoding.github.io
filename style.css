@@ -197,4 +197,37 @@ footer p {
         gap: 30px;
         justify-content: center;}
 
+/* Media */
+@media only screen and (max-width: 1300px){
+    .profile img {display: none;}
+}
+@media only screen and (max-width: 1000px){
+    .boxes p{font-size: smaller;}
+    .boxes ul li{font-size: smaller;}
+}
+
+@media only screen and (max-width: 600px) {
+.ullisection1 li {font-size:x-small;}
+.ullisection1 ul{ 
+    flex-direction: column;}
+
+p { font-size: smaller;}
+h2 {font-size: xx-smaller;}
+
+.navigation li{ font-size: smaller;}
+.section1 {padding:30px ;}
+h1 {font-size: x-small;}
+
+.profile img{display: none;}
+.degree {
+    flex-direction: column; 
+    align-items: center; 
+}
+.degree h3 {font-size: xx-small;}
+.degree h4 {font-size: xx-small;}
+.degree p {font-size: xx-small;}
+.degree {
+    align-items: center;
+}
+}
 
