@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+
+/*font-family: 'Bebas Neue'
+font-family: 'Montserrat' */
+
+ li {
+    font-family: 'Montserrat', serif;}
+
+    .section11, h2{
+text-align: center;
+    }
+   
+ .section12,p {text-align: center;}
+
+.profile { display: flex;
+flex-direction: row;
+gap: 10px;
+padding: 20px;
+    margin: 10px;
+    background: #fff;}
+
+.profile img {
+    width: 700px;
+    height: 500px;
+    border: #4a3951 10px solid;
+}
+.profilestuff {
+    padding: 10px;
+    margin-top: -15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.profile h2{
+    font-size: 40px;
+}
+.profile, p{text-align: left;}
+
+.degreesearn { text-align: center;}
+.degree { display: flex;
+    flex-direction: row;
+        gap: 10px;
+    padding: 20px;}
+.degree, h3 {
+        font-family: 'Montserrat', serif;
+   
+}
+.degree1, .degree2 {padding: 20px;
+margin: 10px;
+background: #fff;
+border: solid 5px #4a3951;
+}
+.center {text-align: center;}

@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+
+/*font-family: 'Bebas Neue', serif;
+font-family: 'Montserrat', serif; */
+
+h2, h3 {font-family:'Montserrat', serif;
+}
+p{ font-family:'Montserrat', serif;}
+
+/*header*/
+
+header {
+    background-image: url(pics/codingscreen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+    margin-top: -90px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: baseline;
+    
+justify-content: flex-start;}
+
+header h1 {
+    font-family: 'Bebas Neue', serif;
+    font-size: 70px;
+    margin-bottom: -10px;
+    color: #fff;}
+
+header img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px; 
+    border-radius: 50px;
+    background-color: #fff;}
+
+/* Navigation */
+nav a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{background-color: rgba(8, 1, 11, 0.5);
+    margin-bottom: -15px;
+    margin-top: -15px;
+    margin-left: 0;
+    margin-right: 0;
+    z-index: 2;
+    position: relative;}
+    
+    nav li a {margin-top: 10px;
+    margin-bottom: 10px;}
+    
+      nav ul{
+        list-style-type:none;
+        padding:0;
+        display: flex;
+        justify-content: space-around;}
+        
+        nav ul li a {background-color: rgba(106, 41, 131, 0.0);
+        display: block;
+    border-radius: 20px;}
+    
+        nav ul li {
+            text-align: center;
+        display: inline-block;
+        align-items: center;
+        }
+        
+        nav ul li a{
+            font-family:'Montserrat', serif;
+            color: #ffffff;
+            padding: 15px;
+            text-decoration: none;
+
+        }
+        
+        nav ul li a:hover{
+        background:#e6c1e1;
+        color:#a93395;
+        }
+        
+
+/* Sections */
+
+.section1{margin: 30px;
+    background: #ffffff;
+    padding: 70px;}
+
+.section1 h2 { 
+        color: #000000;
+        text-align: center;}
+.section1 p {
+    color: #000000;
+}
+
+.ullisection1 ul li{
+    font-family:'Montserrat', serif;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+color: #000000;}
+
+.ullisection1 ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+justify-content: center;
+margin-top: 40px;}
+
+.ullisection1 li {
+    border: #e6c1e1 dotted 5px;
+}
+
+.section2{margin-top: -80px;
+    background: #fff;
+padding: 40px;
+}
+.section2, h2 {
+    text-align: center;
+}
+
+.boxes{
+   display: flex;
+   flex-flow: wrap;
+   justify-content: center;
+}
+
+.box1,h2{text-align: center;}
+.box2,h2{text-align: center;}
+.box3,h2{text-align: center;}
+.box1,h3{text-align: center;}
+.box2,h3{text-align: center;}
+.box3,h3{text-align: center;}
+.box1,p{text-align: center;}
+.box2,p{text-align: center;}
+.box3,p{text-align: center;}
+.box1,.box2,box3,ul li{list-style: none;}
+
+.box1{
+    padding: 30px;
+    margin: 10px;
+    background: #fff;
+    width: 350px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #000000;
+    border: #00000074 solid 4px;
+}
+
+.box2{ padding: 30px;
+margin: 10px;
+background: #fff;
+width: 350px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+color: #000000;
+border: #00000074 solid 4px;}
+
+.box3{ padding: 30px;
+    margin: 10px;
+background: #fff;
+width: 350px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+color: #000000;
+border: #00000074 solid 4px;}
+
+
+.section3 {margin-bottom: 0px;
+    margin-left: 0;
+    margin-right:0px;
+    margin-top: 10px;
+    padding: 30px;
+    background:  #605260;
+    padding: 40px;
+}
+
+
+/*footer*/
+footer{
+    background-image: url(pics/codingscreen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 0;
+    margin-right:0;
+    text-align: center;
+}
+footer p {
+    color: #fff;
+    font-family:'Montserrat', serif;
+    text-align: center;
+}
+
+.footer1 {display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;}
+
+
